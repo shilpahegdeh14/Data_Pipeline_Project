@@ -117,4 +117,15 @@ def main():
 
         connection = get_db_connection()
         load_third_party(connection, csv_file_path)
-        query_popular
+        query_popular_tickets(connection)
+
+    except Exception as e:
+        print(f"Main function error: {e}")
+    finally:
+        connection.close()
+
+
+
+if __name__ == "__main__":
+    # Execute the main function
+    main()
