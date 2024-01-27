@@ -67,6 +67,7 @@ Before running the script, make sure you have the following installed:
 4. **View Results:**
    - The script will upload the data from the CSV file to the `TicketSalesTable` table in the MySQL database.
    - You can run queries to view the results or analyze the data in your MySQL database.
+   - 
 
 ## Contributor
 
